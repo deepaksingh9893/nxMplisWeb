@@ -26,7 +26,7 @@ const faqs = [
 export default function AnvayaLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <ProductSchema name="Anvaya CORE" description="Essential AI baby monitor with HD video, cry detection, lullabies and temperature monitoring" price="₹8,999" sku="ANVAYA-CORE-001" image="https://nxmplis.com/anvaya-core-1.jpg" />
+      <ProductSchema name="Anvaya CORE" description="Essential AI baby monitor with HD video, cry detection, lullabies and temperature monitoring" price="₹8,999" sku="ANVAYA-CORE-001" image="https://nxmplis.com/anvaya-core-01-hero-1080p-day-night.png" />
       <ProductSchema name="Anvaya PULSE" description="AI safety baby monitor with face-covering and prone-sleep detection, danger zones and 4MP night vision" price="₹17,999" sku="ANVAYA-PULSE-001" image="https://nxmplis.com/anvaya-pulse.jpg" />
       <ProductSchema name="Anvaya OMNI" description="Contactless baby monitor with breathing and heart rate detection, AI safety alerts and deep sleep reports" price="₹20,999" sku="ANVAYA-OMNI-001" image="https://nxmplis.com/anvaya-omni-01-hero-nursery.jpg" />
       <FAQSchema faqs={faqs} />

@@ -22,7 +22,7 @@ export const productConfig = [
       { id: 'fallback-core-1', numericId: '50746014892255', title: 'Without Display', price: '8999.00', compareAtPrice: '14999.00', availableForSale: true },
       { id: 'fallback-core-2', numericId: '50817486258399', title: 'With 5" Display', price: '12999.00', compareAtPrice: '14999.00', availableForSale: true },
     ],
-    localImages: ['/anvaya-core-1.jpg', '/anvaya-core-2.jpg', '/anvaya-core-3.jpg', '/anvaya-core-4.jpg', '/anvaya-core-5.jpg', '/anvaya-core-6.jpg', '/anvaya-core-7.jpg'],
+    localImages: ['/anvaya-core-01-hero-1080p-day-night.png', '/anvaya-core-02-pan-tilt-whole-home.png', '/anvaya-core-03-trust-safety-badges.png', '/anvaya-core-04-two-way-talk.png', '/anvaya-core-05-room-comfort-lullaby.png', '/anvaya-core-06-monitor-anywhere.png', '/anvaya-core-07-feeding-reminder.png'],
     features: [
       { icon: 'Video', text: 'Crystal-clear 1080P', sub: 'See every detail, day or night' },
       { icon: 'RotateCcw', text: 'No blind spots', sub: '355° pan · 120° tilt, full room' },
@@ -47,7 +47,7 @@ export const productConfig = [
       { id: 'fallback-pulse-1', numericId: '50745881690335', title: 'Without Display', price: '17999.00', compareAtPrice: '22999.00', availableForSale: true },
       { id: 'fallback-pulse-2', numericId: '50817349419231', title: 'With 5.5" Display', price: '21999.00', compareAtPrice: '22999.00', availableForSale: true },
     ],
-    localImages: ['/anvaya-pulse.jpg', '/anvaya-room.webp', '/anvaya-nursery-center.webp', '/anvaya-device-baby.webp', '/anvaya-lifestyle.webp'],
+    localImages: ['/anvaya-pulse-07-product-hero.png', '/anvaya-pulse-01-hero-anywhere.png', '/anvaya-pulse-02-ai-safety-alerts.png', '/anvaya-pulse-04-danger-zone-fence.png', '/anvaya-pulse-03-room-comfort-lullaby.png', '/anvaya-pulse-05-feeding-reminder.png', '/anvaya-pulse-06-night-light.png'],
     features: [
       { icon: 'Shield', text: 'Face covered — alert sent', sub: 'AI detects the moment it happens' },
       { icon: 'Baby', text: 'Rolled onto tummy — you know', sub: 'Prone sleep auto-detected' },
