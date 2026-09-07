@@ -66,6 +66,22 @@ export function AnvayaProductPage({ products, faqs }: Props) {
 
   function handleBuyNow() {
     if (!currentVariant) return;
+
+    const value = parseFloat(currentVariant.price);
+    const w = window as unknown as { fbq?: (...args: unknown[]) => void; gtag?: (...args: unknown[]) => void };
+    w.fbq?.('track', 'AddToCart', {
+      content_name: cfg.fullName,
+      content_ids: [currentVariant.numericId],
+      content_type: 'product',
+      value,
+      currency: 'INR',
+    });
+    w.gtag?.('event', 'add_to_cart', {
+      currency: 'INR',
+      value,
+      items: [{ item_id: currentVariant.numericId, item_name: cfg.fullName, price: value }],
+    });
+
     window.open(cartUrl(currentVariant.numericId), '_blank');
   }
 
