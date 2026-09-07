@@ -23,8 +23,8 @@ const ICON_MAP: Record<string, React.ElementType> = {
 };
 
 const reviews = [
-  { name: 'Priya M.', city: 'Bangalore', rating: 5, text: 'Finally slept through the night knowing Anvaya is watching. The cry analysis is incredibly accurate — it identified a hungry cry before I even got up.', product: 'SENSE', avatar: 'PM' },
-  { name: 'Rahul K.', city: 'Mumbai', rating: 5, text: 'Worth every rupee. The breathing monitor gave us so much peace of mind in the first two months. Setup took literally 3 minutes.', product: 'SENSE', avatar: 'RK' },
+  { name: 'Priya M.', city: 'Bangalore', rating: 5, text: 'Finally slept through the night knowing Anvaya is watching. The cry alert is incredibly accurate — it caught a hungry cry before I even got up.', product: 'CORE', avatar: 'PM' },
+  { name: 'Rahul K.', city: 'Mumbai', rating: 5, text: 'Worth every rupee. The contactless breathing monitor gave us so much peace of mind in the first two months. Setup took literally 3 minutes.', product: 'OMNI', avatar: 'RK' },
   { name: 'Ananya S.', city: 'Hyderabad', rating: 5, text: 'The sleep score feature is genius. We knew exactly when our baby hit deep sleep and stopped tiptoeing around!', product: 'OMNI', avatar: 'AS' },
   { name: 'Meera R.', city: 'Chennai', rating: 5, text: 'As a first-time mother, I was anxious every night. Anvaya OMNI changed everything — real-time breathing alerts and AI insights. Best investment.', product: 'OMNI', avatar: 'MR' },
 ];
