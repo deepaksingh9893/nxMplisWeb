@@ -231,6 +231,19 @@ export function AnvayaProductPage({ products, faqs }: Props) {
               </div>
             </div>
 
+            {/* Story sections — same copy & images as the Shopify listing, for consistency */}
+            <div className="mt-10 space-y-10">
+              {cfg.storySections.map((s, i) => (
+                <motion.div key={s.heading} initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.05 }}>
+                  <div className="relative rounded-2xl overflow-hidden border border-gray-100 bg-[#f7f5f2]" style={{ aspectRatio: '4/3' }}>
+                    <Image src={s.image} alt={s.heading} fill className="object-cover" sizes="(max-width: 1024px) 100vw, 700px" />
+                  </div>
+                  <h3 className="text-lg font-bold text-gray-900 mt-4 mb-1.5">{s.heading}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">{s.body}</p>
+                </motion.div>
+              ))}
+            </div>
+
             {/* Videos — OMNI only */}
             {selected === 2 && (
               <div className="mt-10">

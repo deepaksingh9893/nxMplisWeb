@@ -31,6 +31,15 @@ export const productConfig = [
       { icon: 'Thermometer', text: 'Room conditions', sub: 'Temp & humidity at a glance' },
       { icon: 'Smartphone', text: 'App and monitor', sub: 'Watch your way, any time' },
     ],
+    // Same sections + images used in the Shopify listing, for a consistent story across both
+    storySections: [
+      { image: '/anvaya-core-02-pan-tilt-whole-home.png', heading: 'Whole-Home Coverage. Nothing Missed.', body: 'Pan 355° and tilt 120° from your phone or the parent unit, covering every corner of the nursery — and connect up to 4 cameras to watch multiple rooms at once.' },
+      { image: '/anvaya-core-04-two-way-talk.png', heading: 'Talk Back, Anytime, From Anywhere', body: 'Two-way audio lets you soothe your baby with your own voice — from the next room or across the city. Encrypted, secure video means only you see what CORE sees.' },
+      { image: '/anvaya-core-05-room-comfort-lullaby.png', heading: 'A Comfortable Room, A Soothing Night', body: 'Room temperature and humidity, monitored in real time. Pick from 8 built-in lullabies and 10 volume levels to help your baby settle faster.' },
+      { image: '/anvaya-core-07-feeding-reminder.png', heading: 'Never Miss a Feed', body: 'Set your feeding interval once — CORE reminds you when it\'s time, right on your phone or parent unit.' },
+      { image: '/anvaya-core-06-monitor-anywhere.png', heading: 'Watch From the Kitchen, the Shower, or the Office', body: 'Wi-Fi mode keeps you connected wherever you are. Prefer to keep it fully offline? Non-Wi-Fi mode connects the parent unit directly to the camera for maximum privacy.' },
+      { image: '/anvaya-core-03-trust-safety-badges.png', heading: 'Built for Trust', body: 'CE, FCC and RoHS certified. No subscription required. Trusted by 1,000+ families across India.' },
+    ],
   },
   {
     id: 'pulse',
@@ -56,6 +65,14 @@ export const productConfig = [
       { icon: 'Heart', text: 'Milestones, captured', sub: 'Auto timeline album as they grow' },
       { icon: 'Thermometer', text: 'Environment on watch', sub: 'Temp & humidity alerts' },
     ],
+    storySections: [
+      { image: '/anvaya-pulse-01-hero-anywhere.png', heading: 'See Your Baby, Anywhere', body: 'In the kitchen, in the shower, or at your desk — a live 4MP feed is always one tap away on the app or the 5.5-inch parent display.' },
+      { image: '/anvaya-pulse-02-ai-safety-alerts.png', heading: 'AI That Never Blinks', body: 'On-device AI watches for the two most common infant sleep risks — face covering and prone (tummy) sleep — and alerts you the instant something\'s wrong, on the parent unit and the app.' },
+      { image: '/anvaya-pulse-04-danger-zone-fence.png', heading: 'Set a Safety Fence, Get Instant Alerts', body: 'Draw a danger zone around stairs, a balcony door, or anywhere else — PULSE alerts you the second your baby crosses it.' },
+      { image: '/anvaya-pulse-03-room-comfort-lullaby.png', heading: 'Comfort, Timed Right', body: 'Room temperature and humidity, monitored in real time, plus 8 built-in lullabies across 10 volume levels to help your baby settle faster.' },
+      { image: '/anvaya-pulse-05-feeding-reminder.png', heading: 'Never Miss a Feed', body: 'Set your feeding interval once — PULSE reminds you when it\'s time, right on your phone or the parent unit.' },
+      { image: '/anvaya-pulse-06-night-light.png', heading: 'A Soft Glow for Calmer Nights', body: 'A built-in night light, dimmable from the app, adds just enough warmth to comfort your baby back to sleep.' },
+    ],
   },
   {
     id: 'omni',
@@ -80,6 +97,14 @@ export const productConfig = [
       { icon: 'Phone', text: 'One tap, partner\'s phone rings', sub: '3am? No fumbling.' },
       { icon: 'Shield', text: 'Face cover + tummy roll', sub: 'AI catches both — you just sleep' },
       { icon: 'Zap', text: 'Invisible fence, real alerts', sub: 'Set zones, get notified instantly' },
+    ],
+    storySections: [
+      { image: '/anvaya-omni-09-vitals-heart-breathing.png', heading: 'Breathing & Heart Rate — Without a Single Wearable', body: 'Radar-based sensing tracks respiration and heart rate continuously, all night — no patch, no strap, nothing attached to your baby.' },
+      { image: '/anvaya-omni-05-sleep-report.png', heading: 'Sleep, Decoded Every Night', body: 'Wake up to a deep sleep analysis report — total sleep time, light vs. deep sleep, and a nightly sleep score — so you know exactly how your baby rested.' },
+      { image: '/anvaya-omni-10-ai-safety-alerts.png', heading: 'AI Safety, Built In', body: 'Every PULSE safety feature comes standard: face-covering detection and prone-sleep alerts, the instant something\'s wrong.' },
+      { image: '/anvaya-omni-06-danger-zones.png', heading: 'Set Boundaries, Get Alerts', body: 'Draw a danger zone around stairs or a balcony door — OMNI alerts you the second your baby crosses it.' },
+      { image: '/anvaya-omni-07-monitor-anywhere.png', heading: 'Monitor From Anywhere', body: 'In the kitchen, in the shower, or at the office — vitals, video, and alerts follow you on the app, wherever you are.' },
+      { image: '/anvaya-omni-08-trust-certifications.png', heading: 'Trusted Nationwide', body: 'CE, FCC and RoHS certified. No subscription needed. Trusted by thousands of families across India.' },
     ],
   },
 ];
